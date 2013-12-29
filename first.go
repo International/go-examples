@@ -35,7 +35,6 @@ func main() {
   results    := make(map[int]int)
 
   wg         := sync.WaitGroup{}
-//  acumulator := make(chan int,5)
 
   for _, val := range values {
     wg.Add(1)
